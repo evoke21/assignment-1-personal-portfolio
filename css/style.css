@@ -1,0 +1,187 @@
+/* 1. Body */
+body {
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* 2. Main Container */
+.container {
+    width: 90%;
+    max-width: 730px;
+    margin: 20px auto;
+}
+
+/* 3. Header */
+
+.header {
+    background-color: rgb(24, 72, 123);
+    color: white;
+    text-align: center;
+    padding: 3vh;
+    border-radius: 2vw;
+    margin-bottom: 2vh;
+}
+
+.header img {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    border: 0.4vw solid white;
+    object-fit: cover;
+    margin-bottom: 1.5vh;
+}
+
+
+/* Navbar Links */
+.navbar {
+    margin-top: 20px;
+}
+
+.navbar a {
+    display: inline-block;
+    background-color: rgb(62, 101, 145);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 3px;
+    font-size: 12px;
+}
+
+/* 4. About Me */
+.about {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    color: teal;
+    border-bottom: 1px solid #d6e5f5;
+    padding-bottom: 12px;
+}
+
+.about p {
+    color: #34465a;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* Skills */
+.skills {
+    margin-top: 3vh;
+    padding-top: 1vh;
+    border-top: 1px solid #d6e5f5;
+}
+
+.skills p {
+    display: inline-block;
+    background-color: #f5f9fe;
+    border: 1px solid #e0ebf8;
+    padding: 1vh 1.5vw;
+    border-radius: 1vw;
+    margin-right: 0.5vw;
+    margin-bottom: 1vh;
+    font-size: 1.5vw;
+}
+
+
+/* 6. Experience */
+.experience {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.experience h2 {
+    color: teal;
+    border-bottom: 1px solid #d6e5f5;
+    padding-bottom: 12px;
+}
+
+.job {
+    background-color: #f7f9fc;
+    border: 1px solid #e0eaf5;
+    border-left: 4px solid #0874c1;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.job h3 {
+    color: teal;
+    font-size: 16px;
+}
+
+.job p {
+    color: teal;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+
+/* Experience Image */
+.job img {
+    width: 6vw;
+    height: 6vw;
+    object-fit: cover;
+    border-radius: 1vw;
+    float: left;
+    margin-right: 2vw;
+}
+
+/* Job Information */
+.job-info {
+    display: inline-block;
+}
+
+/* Clear Float */
+.clear {
+    clear: both;
+}
+
+
+
+/* 7. Contact */
+.contact {
+    background-color: rgb(62, 101, 145);
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.contact h2 {
+    border-bottom: 1px solid #52769a;
+    padding-bottom: 12px;
+}
+
+.contact p {
+    font-size: 14px;
+}
+
+.contact a {
+    display: inline-block;
+    background-color: #315d89;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 3px;
+    font-size: 12px;
+}
+
+/* 8. Footer */
+.footer {
+    background-color: rgb(7, 26, 53);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 12px;
+}
